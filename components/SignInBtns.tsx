@@ -22,21 +22,6 @@ export default function SignInBtns() {
           </span>
           Sign In With GitHub
         </button>
-
-        <button
-          onClick={() => signIn("google")}
-          className="flex items-center border p-4 rounded-full gap-4 hover:bg-slate-100/25 transition"
-        >
-          <span>
-            <Image
-              src={"/google-logo.svg"}
-              width={30}
-              height={30}
-              alt="Google Logo"
-            />
-          </span>
-          Sign In With Google
-        </button>
       </div>
     </>
   );
